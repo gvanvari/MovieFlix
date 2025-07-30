@@ -55,14 +55,3 @@ STRIDE-based security and threat review:
 | Elevation of Privilege| No enforcement of user roles for privileged actions                                                    | Implement RBAC throughout application logic   |
 
 ---
-
-## Critical Recommendations
-
-1. **Hash and Salt Passwords**: Never store plain-text passwords.
-2. **Input Validation**: Add strict validation on all user inputs.
-3. **RBAC Enforcement**: Check user roles before allowing privileged actions (e.g., user/admin).
-4. **Add Logging/Auditing**: Track and log all sensitive actions.
-5. **Paginate and Rate-limit Endpoints**: Protect from resource exhaustion.
-6. **Never Expose Sensitive Data**: Avoid sending passwords/emails in API responses.
-
-If you need code examples or want to focus on a specific STRIDE threat, let me know!
